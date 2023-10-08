@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "service_name": "Wedding Planning",
+        "image": "https://i.ibb.co/0Gp5yrQ/wedding-planning.jpg",
+        "details": "Acting as your personal wedding concierge service, we will work with you to define your vision and then pull all of the elements together in a seamless and efficient manner from creating budgets and schedules, through to sourcing suppliers, styling your wedding with our great design team, managing RSVPs, Logistics and Guest Management we are happy to rise to any challenge.",
+        "service_image1": "https://i.ibb.co/kyktmNV/planning1.jpg",
+        "service_image2": "https://i.ibb.co/CMdp5Rv/planning2.jpg",
+        "service_image3": "https://i.ibb.co/PWCwtNc/planning4.jpg",
+        "service_image4": "https://i.ibb.co/gdLmpSd/planning5.jpg"
+    },
+    {
+        "id": 2,
+        "service_name": "Venue Search",
+        "image": "https://i.ibb.co/hmjVz77/venue-search.jpg",
+        "details": "If you secure a good venue and a good deal with the hotel you choose to get married at, half the work is done. Finding the perfect venue can be overwhelming and time consuming. We would love to save our clients time, effort and hassle and source exceptional venues on your behalf. Whether in Goa or Rajasthan, North India or Kerala we have an exceptional complimentary venue search team that will work according to your requirements and budget. We will help you find the venue that you are 100% satisfied with.",
+        "service_image1": "https://i.ibb.co/NLK3mYX/venue1.jpg",
+        "service_image2": "https://i.ibb.co/92MjWsp/venue2.jpg",
+        "service_image3": "https://i.ibb.co/x8qJs1B/venue3.jpg",
+        "service_image4": "https://i.ibb.co/5hPj45p/venue4.jpg",
+        "service_image5": "https://i.ibb.co/xGYpt8C/wedding-stage-decor.jpg"
+       
+    },
+    {
+        "id": 3,
+        "service_name": "Wedding Decor",
+        "image": "https://i.ibb.co/c17kZNh/wedding-decor.jpg",
+        "details": "Wedding decor, that is our main forte! More over from readymade, cookie cutter weddings. We believe in customizing our clients wedding. We strongly believe that each client of ours is unique and has a story to tell through the way their wedding looks. We have an easy to understand and effective process of décor designing and execution. We thoroughly understand our clients requirements and budget, and then focus on creating something that has never been seen before with many wow factors. We understand that every clients requirements are unique, which is why we focus on what you want and what your dream event is like and we ensure that we meet those requirements and specifications all the time. We take pride in what we do and décor is something that is very close to our heart.",
+        "service_image1": "https://i.ibb.co/wL1jKjY/decor2.jpg",
+        "service_image2": "https://i.ibb.co/ypKVSr7/decor3.jpg",
+        "service_image3": "https://i.ibb.co/3MdDXHS/decor5.jpg",
+        "service_image4": "https://i.ibb.co/rm8rLhF/decor1.jpg",
+        "service_image5": "https://i.ibb.co/L5sR6LX/decor4.jpg"
+       
+    },
+    {
+        "id": 4,
+        "service_name": "Theme Wedding",
+        "image": "https://i.ibb.co/JK0LLwf/theme-wedding.jpg",
+        "details": "Every wedding has a story to tell. It is a story of two lives being entwined in love forever. Stories of two families and many personalities becoming one with a celebration of sorts. We are passionate and eager to bring that story to life. By being story tellers on your behalf, we aim to create a wedding that is unique and a representation of your personality. We deeply desire that we provide our clients with the best assistance, advice and support when it comes to planning the perfect event. A wedding theme makes your wedding more connected, it makes it look grander and brings more life into the festivities. Themes can be chosen based on your heritage and culture, on your life story, on your daily beliefs and your sense of aesthetics and beauty.",
+        "service_image1": "https://i.ibb.co/pRgWtT8/theme3.webp",
+        "service_image2": "https://i.ibb.co/tpnpBW2/theme4.jpg",
+        "service_image3": "https://i.ibb.co/CQBCYGx/theme5.webp",
+        "service_image4": "https://i.ibb.co/tYvbMHN/Umaid-bhavan-wedding-2.jpg"
+    },
+    {
+        "id": 5,
+        "service_name": "Vendor Management",
+        "image": "https://i.ibb.co/0fq2Bch/vendor-management.jpg",
+        "details": "Elite Wedding Planner provides a complete wedding planning service, including a strong focus on vendor selection and management. You tell us what you like and we will make it happen. Apart from us having an extensive list of top quality artists, musicians, dancers segregated according to various budget brackets, we also have a past record of working with most the enlisted artists. We will suggest reliable and quality entertainers whom we have worked with several times in the past so that you can be assured of the delivery. We understand that there are no second chances and we have to give it our 100% in the first time, and every time. All our vendors are known to us, and have been vetted for their performance. This will make the entire process of having them on board hassle free and fuss-free.",
+        "service_image1": "https://i.ibb.co/p1wqVQn/Rajasthani-wedding-entertainment.jpg",
+        "service_image2": "https://i.ibb.co/7rCkjym/sangeet-at-mahrangarh-fort.jpg",
+        "service_image3": "https://i.ibb.co/W3w8F5w/wedding-entertiament-by-ewp.jpg",
+        "service_image4": "https://i.ibb.co/VMqqTrs/iwp-11.jpg",
+        "service_image5": "https://i.ibb.co/kMXYpz6/iwp-01.jpg"
+    },
+    {
+        "id": 6,
+        "service_name": "Photography",
+        "image": "https://i.ibb.co/JvWBHkk/photography.jpg",
+        "details": "So, have you conceived your perfect wedding photos and dont know how to go about bringing them to life? Dont worry. We have an impressive list of wedding photographers, all customized to your taste and budget. And if you want a memorable event, whatever the occasion may be, our creative photographers will deliver.",
+        "service_image1": "https://i.ibb.co/RYJdVYH/image2.jpg",
+        "service_image2": "https://i.ibb.co/gmmkYvW/image3.jpg",
+        "service_image3": "https://i.ibb.co/WvTBTPH/image5.jpg",
+        "service_image4": "https://i.ibb.co/FmzFS75/image6.jpg",
+        "service_image5": "https://i.ibb.co/d5yDPJb/Z9-ROP9-PTGsv-Mp-GMm1-Kx-Hlb-Yh-weddings-mg-0162-1607279607.jpg"
+    },
+    {
+        "id": 7,
+        "service_name": "Guest Management",
+        "image": "https://i.ibb.co/kSCjnt3/guest-management.jpg",
+        "details": "Our team comprises of some of the best event/wedding planners in India and they are passionate in what they do. Each team members would have personally been to all the venues that we have on our books and would have personally dealt with the front desk requirements, hotel staff, all your vendors as well as the logistics vendors to ensure smooth service.",
+        "service_image1": "https://i.ibb.co/qkhh3m8/Elite-Wedding-Planner-Team-1.jpg",
+        "service_image2": "https://i.ibb.co/tpzm4Vv/elite-wedding-planner-team.jpg",
+        "service_image3": "https://i.ibb.co/WpncHNJ/guest.jpg",
+        "service_image4": "https://i.ibb.co/yVbHbnG/elite-wedding-planner-team-2.jpg",
+        "service_image5": "https://i.ibb.co/sCdL8qM/GUEST-MANAGEMENT-MAIN-IMAGE.jpg"
+    }
+]
