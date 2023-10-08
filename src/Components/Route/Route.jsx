@@ -11,6 +11,7 @@ import SignIn from "../SignIn/SignIn";
 import GalleryDetails from "../Gallery/GalleryDetails";
 import ContactUs from "../Contact/ContactUs";
 import BlogCardDetails from "../Blog/BlogCardDetails";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
             },
             {
                 path:"/gallery",
-                element: <Gallery></Gallery>,
+                element: <PrivateRoute><Gallery></Gallery></PrivateRoute>,
             },
             {
                 path: "/blog",

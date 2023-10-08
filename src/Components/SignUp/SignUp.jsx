@@ -22,7 +22,7 @@ const SignUp = () => {
       console.log(result.user);
     })
     .catch(error=>{
-      console.log(error);
+      console.error(error);
     })
 
 

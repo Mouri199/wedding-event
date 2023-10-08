@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthProvider } from "../Contributor/AuthContributor";
 
 
 const SignIn = () => {
+
+  const {createSignInUser} = useContext(AuthProvider);
 
   const clickSignIn = e => {
     e.preventDefault();
@@ -10,6 +14,13 @@ const SignIn = () => {
     const password = e.target.password.value;
 
     console.log(email, password);
+    createSignInUser(email,password)
+    .then(result=>{
+      console.log(result.user);
+    })
+    .catch(error=>{
+      console.error(error);
+    })
 
 
 

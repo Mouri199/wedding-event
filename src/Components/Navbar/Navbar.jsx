@@ -1,6 +1,16 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthProvider } from "../Contributor/AuthContributor";
 
 const Navbar = () => {
+
+    const {user,userSignOut} = useContext(AuthProvider);
+
+    const handleSignOut = () =>{
+        userSignOut()
+        .then(() => console.log("user logged out"))
+        .catch(error => console.error(error))
+    }
     return (
         <>
             <div className="flex  justify-evenly bg-purple-100 items-center">
@@ -45,6 +55,12 @@ const Navbar = () => {
                     <Link to="/signin">
                         <button className="btn ml-5 hover:bg-purple-800 bg-purple-900 text-white">Sign In</button>
                     </Link>
+                </div>
+                <div>
+                    {
+                        user && <span>{user.email}</span>
+                    }
+                    <button onClick={handleSignOut} className="btn">Sign Out</button>
                 </div>
 
 
