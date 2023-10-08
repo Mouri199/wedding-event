@@ -1,10 +1,8 @@
-
-
 import Pakage from "../Pakage/Pakage";
 import Card from "../Card/Card";
 import ClientMoment from "../ClientMoment/ClientMoment";
 import Banner from "../Banner/Banner";
-import Slider from "../Slider/Slider";
+
 
 
 

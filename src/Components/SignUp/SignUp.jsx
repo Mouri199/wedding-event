@@ -1,9 +1,13 @@
 
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthProvider } from "../Contributor/AuthContributor";
+
 
 
 const SignUp = () => {
 
+  const { createSignUpUser } = useContext(AuthProvider);
 
 
   const clickSignUp = e => {
@@ -11,14 +15,20 @@ const SignUp = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-   
-    console.log(name,email, password);
 
-   
+    console.log(name, email, password);
+    createSignUpUser(email, password)
+    .then(result=>{
+      console.log(result.user);
+    })
+    .catch(error=>{
+      console.log(error);
+    })
+
 
   }
 
-  
+
   return (
     <div className="hero min-h-screen bg-base-200 ">
       <div className="hero-content flex-col">
