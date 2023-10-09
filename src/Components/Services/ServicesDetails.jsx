@@ -17,11 +17,11 @@ const ServicesDetails = () => {
                 <hr className="lg:ml-[620px] h-[5px] bg-purple-900 w-[500px] mt-8" />
 
                 <h3 className="text-2xl mt-8 mb-5">{service.details}</h3>
-                <div className="grid grid-cols-2">
-                    <img className="w-full h-[700px]" src={service.service_image1} alt="" />
-                    <img className="w-full h-[700px]" src={service.service_image2} alt="" />
-                    <img className="w-full h-[700px]" src={service.service_image3} alt="" />
-                    <img className="w-full h-[700px]" src={service.service_image4} alt="" />
+                <div className="grid lg:grid-cols-2">
+                    <img className="lg:w-full lg:h-[700px]" src={service.service_image1} alt="" />
+                    <img className="lg:w-full lg:h-[700px]" src={service.service_image2} alt="" />
+                    <img className="lg:w-full lg:h-[700px]" src={service.service_image3} alt="" />
+                    <img className="lg:w-full lg:h-[700px]" src={service.service_image4} alt="" />
                     <img src={service.service_image5} alt="" />
                 </div>
             </div>

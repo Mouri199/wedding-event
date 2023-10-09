@@ -7,7 +7,7 @@ const AbirNatasa = () => {
 
                 <img src="https://i.ibb.co/qp6Vs26/floating-image-09.png" alt="" />
             </div>
-            <div className="relative flex justify-evenly items-center mt-20">
+            <div className="relative lg:flex justify-evenly items-center mt-20">
                 <img data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" src="https://i.ibb.co/VmbZ0Hn/home-02-image-02.png" alt="" />
@@ -15,7 +15,7 @@ const AbirNatasa = () => {
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <img src="" alt="" />
-                    <div className="w-[500px] py-5">
+                    <div className="lg:w-[500px] mx-5 py-5">
                         <p className="text-xl">Abir & Natasha</p>
                         <h2 className="text-4xl font-lora">Our Story</h2>
                         <p>When I first saw you, I knew that you had a flame in your heart. And under our blue skies, marble movie skies, I found a home in your eyes, we’ll never be apart.
@@ -23,7 +23,7 @@ const AbirNatasa = () => {
                     </div>
 
                     <Link to ="/galleryDetails"> 
-                        <button className="btn rounded-full bg-purple-900 hover:bg-purple-800 text-white">View Gallery</button></Link>
+                        <button className="btn ml-5 rounded-full bg-purple-900 hover:bg-purple-800 text-white">View Gallery</button></Link>
                 </div>
 
             </div>

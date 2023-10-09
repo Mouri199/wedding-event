@@ -2,7 +2,7 @@ const ClientMoment = () => {
     return (
         <div>
             <div style={{ backgroundImage: 'url(https://i.ibb.co/jDcK97N/1301340.jpg)' }}>
-                < div className="flex justify-around items-center hero-overlay bg-white bg-opacity-80 mt-32 border">
+                < div className="lg:flex justify-around items-center hero-overlay bg-white bg-opacity-80 mt-32 border">
                     <div>
                         <img data-aos="fade-right"
                             data-aos-offset="300"
@@ -38,7 +38,7 @@ const ClientMoment = () => {
                             <h3 className="text-[#626262] text-2xl font-semibold">
                                 SHE SAID YES
                             </h3>
-                            <p className="italic" >At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+                            <p className="italic mb-5" >At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
                         </div>
                     </div>
                 </div>

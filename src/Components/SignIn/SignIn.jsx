@@ -50,7 +50,7 @@ const SignIn = () => {
             <button className="btn bg-purple-900 text-white">Sign In</button>
           </div>
         </form>
-        <p className="text-center mb-5">Are you new here? <br /> Please <Link to="/signUp" className="hover:underline"><button className="btn btn-link">Sign Up</button></Link> </p>
+        <p className="text-center mb-5">Are you new here? <br /> Please <Link to="/signUp" className="font-semibold underline text-purple-900">Sign Up</Link> </p>
       </div>
     </div>
      </div>

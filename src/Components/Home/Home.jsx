@@ -7,7 +7,9 @@ import Banner from "../Banner/Banner";
 
 
 
+
 const Home = () => {
+   
 
     return (
         <div>
@@ -15,7 +17,7 @@ const Home = () => {
             {/* <Slider></Slider> */}
             <section>
                 <div className=" lg:ml-40 text-center my-10">
-                    <p data-aos="flip-right" className="lg:text-5xl font-medium">
+                    <p data-aos="flip-right" className="lg:text-5xl text-2xl font-medium">
                         It’s not just music, It’s Magic!
                     </p>
                    
@@ -23,6 +25,7 @@ const Home = () => {
 
 
             </section>
+
 
             <Pakage></Pakage>
 

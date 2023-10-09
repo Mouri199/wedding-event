@@ -3,10 +3,10 @@ const Footer = () => {
     return (
         <div className="mt-10 mb-20">
             <hr />
-            <p className="text-4xl italic text-center lg:font-semibold lg:mt-5">Ready for a Ridiculously Fun Time at Your Event?</p>
+            <p className="text-3xl lg:text-4xl italic text-center lg:font-semibold lg:mt-5">Ready for a Ridiculously Fun Time at Your Event?</p>
 
-            <div className="text-center mt-10 text-xl">
-                <h4 className="font-satisfy text-5xl mb-2">Wedding Hawker</h4>
+            <div className="text-center mt-10 lg:text-xl">
+                <h4 className="font-satisfy text-2xl lg:text-5xl mb-2">Wedding Hawker</h4>
                 <p>E-mail: info@gmail.com</p>
                 <p>Call: +8809198289</p>
                 

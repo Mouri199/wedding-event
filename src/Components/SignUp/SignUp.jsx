@@ -54,7 +54,7 @@ const SignUp = () => {
               <button className="btn bg-purple-900 text-white">Sign Up</button>
             </div>
           </form>
-          <p className="text-center mb-5">You already have an account? <br /> Please <Link to="/signin" className="hover:underline"><button className="btn btn-link">Sign In</button></Link> </p>
+          <p className="text-center mb-5">You already have an account? <br /> Please <Link to="/signin" className="underline text-purple-900 font-semibold">Sign In</Link> </p>
         </div>
       </div>
     </div>

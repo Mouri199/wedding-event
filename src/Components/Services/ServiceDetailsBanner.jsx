@@ -3,7 +3,7 @@
 const ServiceDetailsBanner = () => {
     return (
         <div>
-            <div className="bg-purple-100 flex font-roboto justify-evenly items-center">
+            <div className="bg-purple-100 lg:flex font-roboto justify-evenly items-center">
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500" className="absolute top-32 right-[1400px]">
@@ -14,12 +14,12 @@ const ServiceDetailsBanner = () => {
                 </div>
                 <div data-aos="fade-up"
                     data-aos-duration="800" className="relative">
-                    <img src="https://i.ibb.co/D5rz976/post-11-1280x640-removebg-preview.png" alt="" />
+                    <img src="https://i.ibb.co/rMQ46cf/home-01-testimonials-02-removebg-preview.png" alt="" />
                 </div>
 
 
                 <div>
-                    <p className="w-[700px] text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
+                    <p className="lg:w-[700px] text-3xl mx-5 lg:text-5xl  font-lora">Happiness is anyone and anything at all, thats loved by you.</p>
 
 
                 </div>

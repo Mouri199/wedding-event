@@ -14,13 +14,13 @@ const Pakage = () => {
             <div>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" className="lg:flex items-end gap-10 mt-20 lg:ml-[300px] bg-purple-200 w-[1020px]">
+                    data-aos-easing="ease-in-sine" className="lg:flex  items-end gap-10 mt-20 lg:ml-[300px] bg-purple-200 lg:w-[1020px]">
                     <img className=" rounded-t-full w-[300px] h-[500px]" src="/public/pakage.jpg" alt="" />
 
                     <div>
-                        <p className="text-center text-5xl font-semibold">Fair Pakage</p>
-                        <p className="text-center text-3xl font-semibold mb-5">$70000</p>
-                        <p className="font-roboto mb-10 text-2xl italic font-medium">
+                        <p className="text-center text-2xl mt-5 lg:text-5xl font-semibold">Fair Pakage</p>
+                        <p className="text-center text-3xl lg:text-3xl font-semibold mb-5">$70000</p>
+                        <p className="font-roboto mb-10 text-lg lg:text-2xl italic font-medium">
 
                             1.Main Buffet for 100 Portions <br />
                             2.Standard Decoration <br />
@@ -37,15 +37,15 @@ const Pakage = () => {
 
 
             <div>
-                <div data-aos="fade-left"
+                <div  data-aos="fade-left"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" className="lg:flex items-end gap-10 mt-20 lg:ml-[600px] bg-purple-200 lg:w-[1020px]">
+                    data-aos-easing="ease-in-sine"  className="lg:flex items-end gap-10 mt-20 lg:ml-[600px] bg-purple-200 lg:w-[1020px]">
                     <img className=" rounded-t-full w-[300px] h-[500px]" src="/public/pakage3.jpg" alt="" />
 
                     <div>
-                        <p className="text-center text-5xl font-semibold">Gold Pakage</p>
-                        <p className="text-center text-3xl font-semibold mb-5">$50000</p>
-                        <p className="font-roboto mb-10 text-2xl italic font-medium">
+                        <p className="text-center text-2xl lg:text-5xl font-semibold">Gold Pakage</p>
+                        <p className="text-center text-3xl lg:text-3xl font-semibold mb-5">$50000</p>
+                        <p className="font-roboto mb-10 text-lg lg:text-2xl italic font-medium">
 
                             1.Main Buffet for 80 Portions <br />
                             2.Standard Decoration <br />
@@ -61,15 +61,15 @@ const Pakage = () => {
 
 
             <div>
-                <div data-aos="fade-right"
+                <div  data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" className="lg:flex items-end gap-10 mt-20 lg:ml-[300px] bg-purple-200 lg:w-[1020px]">
                     <img className=" rounded-t-full w-[300px] h-[500px]" src="https://i.ibb.co/tx2QntH/c1101-2.jpg" alt="" />
 
                     <div>
-                        <p className="text-center text-5xl font-semibold">Silver Pakage</p>
-                        <p className="text-center text-3xl font-semibold mb-5">$30000</p>
-                        <p className=" font-roboto mb-10 text-2xl italic font-medium">
+                        <p className="text-center text-3xl lg:text-5xl font-semibold">Silver Pakage</p>
+                        <p className="text-center text-2xl lg:text-3xl font-semibold mb-5">$30000</p>
+                        <p className=" font-roboto mb-10 text-lg lg:text-2xl italic font-medium">
 
                             1.Main Buffet for 80 Portions <br />
                             2.Standard Decoration <br />

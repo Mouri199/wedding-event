@@ -1,8 +1,9 @@
+import ContactBanner from "./ContactBanner";
 
 const ContactUs = () => {
     return (
         <div>
-            hellloooo
+            <ContactBanner></ContactBanner>
         </div>
     );
 };

@@ -2,7 +2,7 @@
 const Card = () => {
     return (
         <div>
-            <div className="flex gap-10 items-center">
+            <div className="lg:flex gap-10 items-center">
 
                 <img data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
@@ -10,16 +10,16 @@ const Card = () => {
 
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
-                    <p className="text-3xl italic lg:w-[700px]">When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.
+                    <p className="text-xl lg:text-3xl italic lg:w-[700px]">When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.
                    <br /> — <span className="font-semibold">Harry, When Harry Met Sally</span></p>
                 </div>
             </div>
 
-            <div className="flex lg:ml-60 gap-10 items-center mt-20">
+            <div className="lg:flex lg:ml-60 gap-10 items-center mt-20">
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <p className="text-3xl italic lg:w-[700px]" >The things that you have done for me, to help me, support me, surprise me, to make me happy, go above and beyond what any person deserves. Youre all I need. I love you and I like you.
+                    <p className="text-xl lg:text-3xl italic lg:w-[700px]" >The things that you have done for me, to help me, support me, surprise me, to make me happy, go above and beyond what any person deserves. Youre all I need. I love you and I like you.
                     <br /> — <span className="font-semibold">Leslie, Parks and Recreation</span></p>
                 </div>
                 <img data-aos="flip-left"

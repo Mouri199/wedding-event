@@ -19,14 +19,14 @@ const Services = () => {
          
           <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine"  className="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:px-40">
+                data-aos-easing="ease-in-sine"  className="mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-5 lg:px-40">
                 {
 
                     info.map(item => <Service key={item.id} Service={item} ></Service>)
                 }
             </div>
         
-            <Slider></Slider>
+          <div className="lg:sticky hidden"><Slider></Slider></div>
         </div>
     );
 };

@@ -6,7 +6,7 @@ const ServiceBanner = () => {
         <div>
 
         </div>
-        <div className="bg-purple-100 flex font-roboto justify-evenly items-center">
+        <div className="bg-purple-100 lg:flex font-roboto justify-evenly items-center">
             <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500" className="absolute top-32 right-[1500px]">
@@ -17,7 +17,7 @@ const ServiceBanner = () => {
                 <img src="https://i.ibb.co/BcQ9K1J/portfolio-05-removebg-preview.png" alt="" />
             </div>
             <div>
-                <p className="w-[700px] text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
+                <p className="lg:w-[700px] text-3xl mx-5 lg:text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
 
 
             </div>

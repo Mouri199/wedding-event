@@ -9,7 +9,7 @@ const BlogCard = ({ info }) => {
             <div>
                 <div>
                     <img src={blog_image} alt="" />
-                    <div className="w-[600px]">
+                    <div className="lg:w-[600px]">
                         <p className="text-xl my-5">{blog_name}</p>
                         <h3 className="text-4xl italic font-lora my-5">{blog_title}</h3>
                         <p className="lg my-5">{blog_time}</p>

@@ -6,7 +6,7 @@ const AboutBanner = () => {
             <div>
 
             </div>
-            <div className="bg-purple-100 flex font-roboto justify-evenly items-center">
+            <div className="bg-purple-100 lg:flex font-roboto justify-evenly items-center">
                 <div data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500" className="absolute top-32 right-[1600px]">
@@ -17,7 +17,7 @@ const AboutBanner = () => {
                     <img src="https://i.ibb.co/jrNwpmF/portfolio-04-removebg-preview.png" alt="" />
                 </div>
                 <div>
-                    <p className="w-[700px] text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
+                    <p className="lg:w-[700px] text-2xl mx-5 lg:text-5xl  font-lora">Whatever our souls are made of, his and mine are the same.</p>
 
 
                 </div>
