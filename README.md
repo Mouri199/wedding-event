@@ -8,10 +8,9 @@ Click here for the private repo: [https://classroom.github.com/a/ehOGNGkI](https
 
 
 
-<div align="center">
-  <img height="60" src="https://edurev.gumlet.io/AllImages/original/ApplicationImages/CourseImages/944e5d47-8c55-4a89-91e5-22ab5f2798fc_CI.png">
+
+
   <h1>MCQ TEST</h1>
-</div>
 
 ###### 1. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
@@ -30,7 +29,10 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Correct answer is "B: ReferenceError: greetign is not defined".
+ The code you provided contains a typographical error.This code declared the variable as greeting but then tried to assign an empty object to greetign. Because of this error, the correct answer is:
+
+</i>
 
 </p>
 </details>
@@ -55,7 +57,8 @@ sum(1, "2");
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Correct answer is " C: "12"".
+In the given code, you are using the + operator to add two values: 1 (a number) and "2" (a string). JavaScript performs implicit type conversion and treats this as a string concatenation operation. As a result, the two values are concatenated together as strings, resulting in "12"</i>
 
 </p>
 </details>
@@ -81,7 +84,7 @@ console.log(food);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Correct Answer is "A: ['🍕', '🍫', '🥑', '🍔']"</i>
 
 </p>
 </details>
@@ -106,7 +109,8 @@ console.log(sayHi());
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i> Correct answer is " B: `Hi there, undefined`"
+In the code you provided, the sayHi function expects one argument name, but when you call sayHi() without providing any arguments, JavaScript assigns the value undefined to the name parameter. Therefore, the function returns "Hi there, undefined".</i>
 
 </p>
 </details>
@@ -134,7 +138,8 @@ console.log(count);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Correct answer is "C:3"
+In the given code, you have an array nums with four elements: [0, 1, 2, 3].</i>
 
 </p>
 </details>
