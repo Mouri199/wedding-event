@@ -19,7 +19,7 @@ const ContactBanner = () => {
 
 
             <div>
-                <p className="w-[700px] text-5xl  font-lora">Before you marry a person you should first make them use a computer with slow Internet to see who they really are.</p>
+                <p className="lg:w-[700px] lg:text-5xl text-2xl mx-5 mb-5 font-lora">Before you marry a person you should first make them use a computer with slow Internet to see who they really are.</p>
 
 
             </div>

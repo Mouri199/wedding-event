@@ -28,10 +28,10 @@ const Card = () => {
             </div>
 
             <div className="text-center">
-                <hr className="lg:ml-[770px] mt-20 h-[5px] bg-purple-900 w-[500px]" />
+                <hr className="lg:ml-[770px] mt-20 h-[5px] bg-purple-900 lg:w-[500px]" />
                 <p data-aos="flip-up" className="lg:ml-[850px] italic text-center w-[400px] mt-8">Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope.
                    <br /> <span className="not-italic font-semibold">Maya Angelou</span> </p>
-                <hr className="lg:ml-[800px] h-[5px] bg-purple-900 w-[500px] mt-10" />
+                <hr className="lg:ml-[770px] h-[5px] bg-purple-900 lg:w-[500px] mt-10" />
             </div>
         </div>
     );

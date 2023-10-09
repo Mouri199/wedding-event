@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Pakage = () => {
@@ -5,10 +6,10 @@ const Pakage = () => {
         <div>
 
             <div>
-                <hr className="lg:ml-[770px] mt-20 h-[5px] bg-purple-900 w-[500px]" />
+                <hr className="lg:ml-[770px] mt-20 h-[5px] bg-purple-900 lg:w-[500px]" />
                 <p data-aos="flip-up" className="lg:ml-[850px] italic text-center w-[400px] mt-8">“Absolutely loved the monogram personalization! Loved the audio recordings you captured, what a wonderful surprise”
                    <br /> <span className="not-italic font-semibold">Mr. & Mrs. Rogers  | Palmer, AK</span> </p>
-                <hr className="lg:ml-[800px] h-[5px] bg-purple-900 w-[500px] mt-10" />
+                <hr className="lg:ml-[770px] h-[5px] bg-purple-900 lg:w-[500px] mt-10" />
             </div>
 
             <div>
@@ -28,7 +29,9 @@ const Pakage = () => {
                             4.One Night Stay at Studio Suite <br />
                             5.One Night Stay at 3Bedroom Suite <br />
                             6.SPA for Bride to be</p>
-                            <button className="btn mb-5 bg-purple-900 text-white">Book Now</button>
+                          <Link to="/contactus">
+                          <button className="btn mb-5 bg-purple-900 hover:bg-purple-800 text-white">Book Now</button>
+                          </Link>
                     </div>
                     <img className="rounded-t-full w-[300px] h-[500px]" src="/public/Kamila & Oren 48.jpg" alt="" />
                 </div>
@@ -53,8 +56,8 @@ const Pakage = () => {
                             4.One Night Stay at Studio Suite <br />
                             5.One Night Stay at 2  Bedroom Suite <br />
                             6.SPA for Bride to be</p>
-                            <button className="btn mb-5 bg-purple-900 text-white">Book Now</button>
-                    </div>
+                        <Link to="/contactus">    <button className="btn mb-5 bg-purple-900 hover:bg-purple-900 text-white">Book Now</button></Link>
+                    </div> 
                     <img className="rounded-t-full w-[300px] h-[500px]" src="/public/pakage4.jpg" alt="" />
                 </div>
             </div>
@@ -76,7 +79,7 @@ const Pakage = () => {
                             3.Photo & Video Shoot <br />
                             4.One Night Stay at Studio Suite <br />
                             </p>
-                            <button className="btn mb-5 bg-purple-900 text-white">Book Now</button>
+                           <Link to="/contactus"> <button className="btn mb-5 bg-purple-900 hover:bg-purple-800 text-white">Book Now</button></Link>
                     </div>
                     <img className="rounded-t-full w-[300px] h-[500px]" src="https://i.ibb.co/sHWyGHB/002-2.jpg" alt="" />
                 </div>

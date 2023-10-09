@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import ServiceDetailsBanner from "./ServiceDetailsBanner";
 
 
@@ -23,6 +23,11 @@ const ServicesDetails = () => {
                     <img className="lg:w-full lg:h-[700px]" src={service.service_image3} alt="" />
                     <img className="lg:w-full lg:h-[700px]" src={service.service_image4} alt="" />
                     <img src={service.service_image5} alt="" />
+                </div>
+                <div className="mx-auto max-w-[200px] my-10">
+                   <Link to="/contactus"><button className="btn bg-purple-900 hover:bg-purple-800 text-white ">
+                        Book now
+                    </button></Link>
                 </div>
             </div>
 

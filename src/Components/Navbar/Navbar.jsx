@@ -1,11 +1,12 @@
-import { useContext, useState } from "react";
+
 import { Link, NavLink } from "react-router-dom";
 import { AuthProvider } from "../Contributor/AuthContributor";
-import { AiOutlineMenuFold } from "react-icons/ai";
+import { useContext } from "react";
+
 
 const Navbar = () => {
 
-    const [open, setOpen] = useState(false)
+
     const { user, userSignOut } = useContext(AuthProvider);
 
     const handleSignOut = () => {
@@ -15,22 +16,64 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className="flex justify-evenly bg-purple-100 items-center">
-                <div className="flex mt-5 mb-5  items-center">
-
-                   
-                        <Link to="/"> <img data-aos="zoom-out-left" className="h-[120px]" src="https://i.ibb.co/YfTRxYV/logo.png" alt="" /></Link>
-                    
-
-                    <div className="md:hidden lg:hidden text-4xl" onClick={() => setOpen(!open)} >
-                        {
-                            open === true ? <AiOutlineMenuFold></AiOutlineMenuFold> : <AiOutlineMenuFold></AiOutlineMenuFold>
+            <div className=" bg-purple-100">
+                <div className=" nav-start flex items-center">
+                    <div className="dropdown flex items-center ">
+                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-56 z-[1] p-2 shadow bg-purple-300 text-center text-lg text-white rounded-box w-52">
+                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="services">Services</NavLink>
+                            <NavLink to="//gallery">Gallery</NavLink>
+                            <NavLink to="blog">Blog</NavLink>
+                            <NavLink to="/contactus">Contact Us</NavLink>
+                        </ul>
+                        <div className="lg:hidden">
+                            <Link to="/"> <img data-aos="zoom-out-left" className="h-[120px] mx-4" src="https://i.ibb.co/YfTRxYV/logo.png" alt="" /></Link>
+                        </div>
+                    </div>
+                    <div className="lg:hidden">
+                        {user ? " " :
+                            <div className="lg:flex">
+                                <Link to="/signUp">
+                                    <button className="lg:p-2 p-1 rounded-lg lg:mx-2 hover:bg-purple-800 bg-purple-900 text-white">Sign Up</button>
+                                </Link>
+                                <Link to="/signin">
+                                    <button className="lg:p-2 lg:block hidden p-1 rounded-lg hover:bg-purple-800 bg-purple-900 text-white">Sign In</button>
+                                </Link>
+                            </div>
                         }
+                    </div>
+                    <div className="flex items-center gap-5">
+                        <div className="lg:text-2xl font-medium">
+                            {
+                                user && <span>{user.displayName}</span>
+                            }
+                        </div>
+                        <div>
+                            {user ? <img className="rounded-full w-14" src={user.photoURL} alt="" ></img> : ""}
+                        </div>
+
+
+
+                        {user ? <button onClick={handleSignOut} className="btn bg-purple-900 text-white hover:bg-purple-800 lg:block hidden">Sign Out</button> : " "}
 
                     </div>
+                </div>
+
+
+
+
+
+
+
+                <div className="lg:flex  lg:justify-around hidden mx-8 items-center">
+
 
                     <nav>
-                        <ul className={`lg:flex md:flex hidden lg:sticky mr-9 text-2xl font-semibold gap-7 ${open? "top-16 left-64" : "hidden"}`}>
+                        <ul className="lg:flex md:flex hidden lg:sticky mr-9 text-2xl font-semibold gap-7">
                             <li className="hover:underline hover:text-purple-900">
                                 <NavLink to="/">Home</NavLink>
                             </li>
@@ -39,7 +82,14 @@ const Navbar = () => {
                             </li>
                             <li className="hover:underline hover:text-purple-900" >
                                 <NavLink to="/services"> Services </NavLink> </li>
+                        </ul>
 
+                    </nav>
+                    <div>
+                        <Link to="/"> <img data-aos="zoom-out-left" className="h-[120px] mx-4" src="https://i.ibb.co/YfTRxYV/logo.png" alt="" /></Link>
+                    </div>
+                    <nav>
+                        <ul className={`lg:flex md:flex hidden lg:sticky mr-9 text-2xl font-semibold gap-7 ${open ? " " : "hidden"}`}>
                             <li className="hover:underline hover:text-purple-900">
                                 <NavLink to="/gallery">Gallery</NavLink>
                             </li>
@@ -50,35 +100,48 @@ const Navbar = () => {
                                 <NavLink to="/contactus">Contact Us</NavLink>
                             </li>
                         </ul>
-
                     </nav>
 
-                    <nav>
+                    <div>
+                        {user ? " " :
+                            <div className="lg:flex">
+                                <Link to="/signUp">
+                                    <button className="lg:p-2 p-1 rounded-lg lg:mx-2 hover:bg-purple-800 bg-purple-900 text-white">Sign Up</button>
+                                </Link>
+                                <Link to="/signin">
+                                    <button className="lg:p-2 lg:block hidden p-1 rounded-lg hover:bg-purple-800 bg-purple-900 text-white">Sign In</button>
+                                </Link>
+                            </div>
+                        }
+                    </div>
+                    <div className="flex items-center gap-5">
+                        <div className="lg:text-2xl font-medium">
+                            {
+                                user && <span>{user.displayName}</span>
+                            }
+                        </div>
+                        <div>
+                            {user ? <img className="rounded-full w-14" src={user.photoURL} alt="" ></img> : ""}
+                        </div>
 
-                    </nav>
+
+
+                        {user ? <button onClick={handleSignOut} className="btn bg-purple-900 text-white hover:bg-purple-800 lg:block hidden">Sign Out</button> : " "}
+
+                    </div>
 
                 </div>
 
 
-                <div className="lg:block hidden">
-                    <Link to="/signUp">
-                        <p className="btn hover:bg-purple-800 bg-purple-900 text-white">Sign Up</p>
-                    </Link>
-                    <Link to="/signin">
-                        <p className="btn ml-5 hover:bg-purple-800 bg-purple-900 text-white">Sign In</p>
-                    </Link>
-                </div>
                 <div>
-                    {
-                        user && <span>{user.email}</span>
-                    }
-                   <div>
-                   <button onClick={handleSignOut} className="btn lg:block hidden">Sign Out</button>
-                   </div>
+
                 </div>
 
 
-            </div>
+
+
+
+            </div >
 
 
 
