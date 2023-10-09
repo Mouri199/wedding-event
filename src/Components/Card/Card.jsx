@@ -6,7 +6,7 @@ const Card = () => {
 
                 <img data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="lg:ml-60 mt-20 lg:w-[800px] lg:h-[700px]" src="/public/flower.jpg" alt="" />
+                    data-aos-duration="2000" className="lg:ml-60 mt-20 lg:w-[800px] lg:h-[700px]" src="https://i.ibb.co/2Y2XCH6/flower.jpg" alt="" />
 
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom">
@@ -24,7 +24,7 @@ const Card = () => {
                 </div>
                 <img data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className="h-[800px]" src="/public/flower2.jpeg" alt="" />
+                    data-aos-duration="2000" className="h-[800px]" src="https://i.ibb.co/jMd0FX5/flower2.jpg" alt="" />
             </div>
 
             <div className="text-center">
