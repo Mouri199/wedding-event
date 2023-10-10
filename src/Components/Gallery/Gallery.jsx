@@ -11,7 +11,7 @@ const Gallery = () => {
               
                 <p data-aos="fade-left"
                     data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" className="lg:w-[500px] mx-5 font-lora">The best thing to hold onto in life is each other.</p>
+                    data-aos-easing="ease-in-sine" className="lg:w-[500px] text-2xl lg:text-5xl   mx-5 font-lora">The best thing to hold onto in life is each other.</p>
                       <img data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" src="https://i.ibb.co/WnCnd83/home-04-image-01-13.png" alt="" />

@@ -9,11 +9,11 @@ const About = () => {
                 <div className="my-10">
 
 
-                    <div className="">
-                        <hr className="lg:ml-[760px] mt-10 h-[5px] bg-purple-900 lg:w-[500px]" />
-                        <p data-aos="flip-up" className="lg:ml-[800px] italic text-center w-[400px] my-5">“Absolutely loved the monogram personalization! Loved the audio recordings you captured, what a wonderful surprise”
+                    <div className=" mx-5">
+                        <hr className="lg:ml-[760px] mt-10 h-[5px] bg-purple-900 w-[370px] lg:w-[500px]" />
+                        <p data-aos="flip-up" className="lg:ml-[800px] italic text-center mx-4 w-[330px] lg:w-[400px] my-5">“Absolutely loved the monogram personalization! Loved the audio recordings you captured, what a wonderful surprise”
                             <br />  <span className="not-italic font-semibold">  Mr. & Mrs. Rogers | Palmer, AK</span> </p>
-                        <hr className="lg:ml-[760px]  h-[5px] bg-purple-900 lg:w-[500px]" />
+                        <hr className="lg:ml-[760px]  h-[5px] bg-purple-900 w-[370px] lg:w-[500px]" />
                     </div>
                     <div className="mx-8 lg:w-[1600px] lg:ml-56">
                         <h1 className="text-2xl lg:text-4xl font-medium">Top Event Management Companies Bangladesh | Event Planner Bangladesh</h1>

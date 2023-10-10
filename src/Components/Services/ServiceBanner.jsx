@@ -17,7 +17,7 @@ const ServiceBanner = () => {
                 <img src="https://i.ibb.co/BcQ9K1J/portfolio-05-removebg-preview.png" alt="" />
             </div>
             <div>
-                <p className="lg:w-[700px] text-3xl mx-5 lg:text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
+                <p className="lg:w-[700px] text-2xl mx-5 lg:text-5xl  font-lora">I belong to my beloved, and my beloved is mine</p>
 
 
             </div>

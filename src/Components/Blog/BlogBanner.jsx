@@ -18,7 +18,7 @@ const BlogBanner = () => {
 
 
                 <div>
-                    <p className="lg:w-[700px] text-3xl mx-5 lg:text-5xl  font-lora">All, everything that I understand, I understand only because I love.</p>
+                    <p className="lg:w-[700px] text-2xl mx-5 lg:text-5xl  font-lora">All, everything that I understand, I understand only because I love.</p>
 
 
                 </div>
