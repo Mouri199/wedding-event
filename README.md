@@ -2,6 +2,8 @@
 
 ## [ Private Repo Link](https://github.com/programming-hero-web-course-4/b8a9-event-management-Mouri199)
 
+## [ Live Link ]( https://wedding-event-planner-38d0d.web.app/ g)
+
 
 
 # Add at least 3 project feature
