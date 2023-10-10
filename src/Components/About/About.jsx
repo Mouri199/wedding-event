@@ -36,11 +36,12 @@ const About = () => {
                     </div>
 
 
-                    <div className="">
-                        <hr className="lg:ml-[760px] mt-10 h-[5px] bg-purple-900 lg:w-[500px]" />
-                        <p data-aos="flip-up" className="lg:ml-[800px] italic text-center w-[400px] my-5">“Absolutely loved the monogram personalization! Loved the audio recordings you captured, what a wonderful surprise”
+                  
+                    <div className="mx-5">
+                        <hr className="lg:ml-[760px] mt-10 h-[5px] bg-purple-900 w-[370px] lg:w-[500px]" />
+                        <p data-aos="flip-up" className="lg:ml-[800px] italic text-center mx-4 w-[330px] lg:w-[400px] my-5">“Absolutely loved the monogram personalization! Loved the audio recordings you captured, what a wonderful surprise”
                             <br />  <span className="not-italic font-semibold">  Mr. & Mrs. Rogers | Palmer, AK</span> </p>
-                        <hr className="lg:ml-[760px]  h-[5px] bg-purple-900 lg:w-[500px]" />
+                        <hr className="lg:ml-[760px]  h-[5px] bg-purple-900 w-[370px] lg:w-[500px]" />
                     </div>
 
                 </div>
